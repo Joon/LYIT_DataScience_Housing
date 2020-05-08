@@ -1,0 +1,379 @@
+﻿Bedrooms,Property Type,Location,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019
+All bedrooms,All property types,Donegal,576.45,548.91,515.83,482.95,463.63,444.91,445.74,461.52,486.35,515.25,536.39,559.59
+All bedrooms,All property types,Donegal Town,689.26,620.35,534.64,514.32,494.44,471.33,457.65,467.66,490.35,511.43,525.29,537.91
+All bedrooms,All property types,"Ballybofey, Donegal",592.13,570.32,546.16,509.33,478.71,450.58,443.37,456.73,475.67,498.09,527.22,545
+All bedrooms,All property types,"Buncrana, Donegal",558.73,538.74,511.34,487.36,452.53,437.67,432.08,445.12,466.86,495.07,508.68,519.72
+All bedrooms,All property types,"Bundoran, Donegal",-1,542,506.68,465.47,444.62,431.39,436.9,428.69,444.42,464.61,505.26,511.68
+All bedrooms,All property types,"Carndonagh, Donegal",539.8,495.2,472.34,435.14,414.64,381.79,374.9,406.17,404.63,402.22,435.72,453.19
+All bedrooms,All property types,"Letterkenny, Donegal",579.49,560.07,525.36,487.09,471.35,447.51,459.02,479.1,514.64,556.93,584.15,613.79
+All bedrooms,All property types,"Lifford, Donegal",541.18,531.54,501.24,461.46,453.28,432.45,418.98,430.45,456.22,466.19,456.1,458.72
+All bedrooms,All property types,"Stranorlar, Donegal",581.78,560.24,535.86,495.51,469.45,439.72,426.81,426.63,437.48,490,495.46,543.21
+All bedrooms,Detached house,Donegal,617.49,579.56,539.96,513.28,495.7,481.47,478.48,490.36,504.06,530.21,553.34,571.69
+All bedrooms,Detached house,Donegal Town,-1,668.17,570.97,539.61,531.94,496.38,488.56,495.52,486.64,510.03,537.48,549.12
+All bedrooms,Detached house,"Ballybofey, Donegal",-1,598.39,566.67,559.91,535.07,501.83,502.57,522.15,525.07,547.3,565,587.76
+All bedrooms,Detached house,"Buncrana, Donegal",-1,-1,-1,539.38,504.97,485.69,466.28,488.94,501.07,542.77,562.13,553.06
+All bedrooms,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Detached house,"Letterkenny, Donegal",660.42,611.57,582.12,531.98,507.88,506.49,523.31,534.96,549.09,597.17,629.98,659.49
+All bedrooms,Detached house,"Lifford, Donegal",-1,533.72,492.78,484.46,487.5,456.85,441.59,462.16,481.15,479.11,450.52,445.22
+All bedrooms,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,558.97,-1
+All bedrooms,Semi detached house,Donegal,603.82,570.01,536.91,501.17,471.33,458.22,465.17,480.33,513.35,540.27,565.43,593.06
+All bedrooms,Semi detached house,Donegal Town,690.25,594.79,519.85,510.86,477.76,470.38,468.37,469.99,512.34,551.39,537.18,530.67
+All bedrooms,Semi detached house,"Ballybofey, Donegal",603.63,590.93,557.28,512.05,483.44,465.76,468.16,485.29,506.26,524.32,541.88,561.62
+All bedrooms,Semi detached house,"Buncrana, Donegal",576.84,553.62,521.33,494.32,449.19,438.91,446.88,464.29,477.23,496.7,516.94,539
+All bedrooms,Semi detached house,"Bundoran, Donegal",-1,-1,500.37,471.4,457.44,442.05,440.72,432.14,443.09,-1,-1,555.54
+All bedrooms,Semi detached house,"Carndonagh, Donegal",-1,517.89,490.81,435.51,409.49,384.59,387.05,417.48,411.57,416.6,442.94,-1
+All bedrooms,Semi detached house,"Letterkenny, Donegal",617.87,584.03,551.52,516.96,484.2,469.18,484.14,504.71,550.75,583.78,610.41,642.59
+All bedrooms,Semi detached house,"Lifford, Donegal",-1,557.91,545.04,-1,-1,446.95,438.83,449.52,485.57,490.53,493.4,521.47
+All bedrooms,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,Donegal,547.5,520.82,497.67,461.34,436.06,425.64,425.39,441.47,457.59,472.97,495.89,517.92
+All bedrooms,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Terrace house,"Letterkenny, Donegal",551.71,552.03,518.09,490.79,461.25,442.77,443.71,471.63,510.89,541.97,557.1,582.86
+All bedrooms,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,408.18,-1,-1,-1
+All bedrooms,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,Donegal,507.75,480.77,450.96,415.91,432.17,394.74,397.46,417.62,442.92,481.71,493.42,518.27
+All bedrooms,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,341.2,356.97,377.23,392.79,470.86,499.63
+All bedrooms,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,"Letterkenny, Donegal",489.79,485.25,451.09,408.33,445.75,393.69,400.05,418.98,451.25,503.76,527.44,554.75
+All bedrooms,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,405.55,384.29,389.48,408.25,-1,-1,-1
+All bedrooms,Other flats,Donegal,406.55,378.64,384.48,364.21,330.2,324.69,323.05,343.05,383.71,395.3,401.59,432.21
+All bedrooms,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,338.02,327.2,333.94,355.71,402.67,442.8,443.3,494.36
+All bedrooms,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+All bedrooms,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,Donegal,441.32,405.93,376.18,349.02,338.76,329.99,333.51,350.85,376.29,406.48,426.59,437.71
+One bed,All property types,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Letterkenny, Donegal",460.83,429.72,378.89,354.71,347.99,330.03,345.66,362.66,392.58,428.8,457.48,464.64
+One bed,All property types,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,All property types,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,Donegal,467.14,415.61,386.1,367.18,359.44,342.26,345.43,361.78,385.11,426.32,445.82,451.2
+One bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Letterkenny, Donegal",477.66,438.63,390.35,361.79,357.88,339.5,353.74,372.21,402.64,443.06,468.8,466.17
+One bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,Donegal,-1,-1,-1,320.78,300.76,299.07,303.88,321.71,347.41,359.21,375.98,411.79
+One bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,-1,291.68,314.81,339.01,365.16,387.54,-1,-1
+One bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+One bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,All property types,Donegal,508.06,484.41,452.03,414.18,405.05,389.43,388.96,403.91,436.4,468.22,478.58,501.93
+Two bed,All property types,Donegal Town,-1,-1,-1,-1,-1,-1,407.16,388.6,449.49,433.46,465.68,500.98
+Two bed,All property types,"Ballybofey, Donegal",-1,485.77,-1,-1,-1,364.65,348.78,363.38,389.31,420.73,462.16,468.3
+Two bed,All property types,"Buncrana, Donegal",-1,-1,-1,-1,-1,367.67,365.68,372.09,402.2,404.68,428.1,455.04
+Two bed,All property types,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,All property types,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,412.77,432.96
+Two bed,All property types,"Letterkenny, Donegal",506.36,498.68,463.06,415.55,421.69,400.23,402.05,425.35,464.98,516.26,529.96,561.25
+Two bed,All property types,"Lifford, Donegal",-1,490.57,-1,-1,-1,-1,346.77,355.34,383.51,407.44,423.16,417.44
+Two bed,All property types,"Stranorlar, Donegal",-1,-1,-1,-1,-1,398.7,388.17,395.39,414.54,-1,-1,-1
+Two bed,Detached house,Donegal,490.14,441.57,427.01,406.65,381.03,361.48,352.89,361.56,380.69,399.61,422.36,456.51
+Two bed,Detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,Donegal,504.97,455.16,436.6,438.81,400.34,403.21,402.97,400.29,413.67,442.62,472.24,479.89
+Two bed,Semi detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Letterkenny, Donegal",-1,461.99,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,Donegal,492.54,490.54,453.9,425.03,407.98,381.31,369.88,381.67,425.39,454.59,462.03,459.49
+Two bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,Donegal,526.13,503.35,463.23,413.16,418.67,398.94,401.64,420.26,456.34,492.73,501.75,527.53
+Two bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Letterkenny, Donegal",502.38,505.8,462.11,399.38,423.72,400.9,404.51,427.13,468.13,518.28,538.88,569.78
+Two bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,393.55,397.22,413.43,-1,-1,-1
+Two bed,Other flats,Donegal,-1,-1,-1,386.91,344.1,338.47,339.97,361.96,413.05,425.85,408.13,437.08
+Two bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,433.53,-1,-1,-1
+Two bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Two bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,All property types,Donegal,588.44,557.49,523.35,490.34,471.69,448.51,449.87,466.33,488.58,516.64,543.71,567.2
+Three bed,All property types,Donegal Town,666.13,594.32,532.8,501.06,471.94,462.01,450.47,454.39,476.12,502.91,525.28,547.19
+Three bed,All property types,"Ballybofey, Donegal",599.53,564.58,540.71,501.24,479.17,458.88,455.62,470.76,490.46,506.53,524.69,546.17
+Three bed,All property types,"Buncrana, Donegal",589.33,560.65,528.15,488.83,444.43,433.86,439.26,464.93,481,486.53,502.06,529.96
+Three bed,All property types,"Bundoran, Donegal",-1,-1,-1,483.6,450.63,430.6,431.07,433.55,450.46,-1,-1,-1
+Three bed,All property types,"Carndonagh, Donegal",-1,483.62,478.01,445.98,411.66,387.16,387.64,398.46,402.74,410.65,438.22,459.77
+Three bed,All property types,"Letterkenny, Donegal",598.98,572.23,541.23,503.65,489.66,459.47,467.8,486.56,525.54,565.6,597.26,623.41
+Three bed,All property types,"Lifford, Donegal",-1,573.46,526.13,490.91,483.96,453.88,439.44,438.74,443.62,447.95,459.38,472.24
+Three bed,All property types,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,Donegal,567.69,534.46,508.07,485.46,465.21,445.21,434.27,447.24,455.37,490.61,512.1,519.08
+Three bed,Detached house,Donegal Town,-1,-1,-1,513.38,487.49,466.52,-1,450.55,438.88,470.38,517.1,-1
+Three bed,Detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,"Letterkenny, Donegal",571.44,547,527.36,473.68,466,462.35,455.68,469.28,493.47,555.12,584.87,565.89
+Three bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Semi detached house,Donegal,598.62,567.83,528.52,493.69,464.36,446.85,450.1,471.08,506.67,532.25,558.73,585.62
+Three bed,Semi detached house,Donegal Town,-1,-1,-1,492.08,454.65,442.44,440.48,453.02,507.63,545.53,-1,-1
+Three bed,Semi detached house,"Ballybofey, Donegal",604.68,577.38,544.57,498.31,472.09,454.79,459.62,466.41,490.63,517.21,529.36,545.32
+Three bed,Semi detached house,"Buncrana, Donegal",-1,574.95,535.24,496.62,452.92,436.26,445.06,477.51,489.82,486.89,504.77,532.88
+Three bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,-1,452.1,432.33,435.01,-1,-1,-1,-1,-1
+Three bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,408.28,413.38,-1,-1
+Three bed,Semi detached house,"Letterkenny, Donegal",609.26,577.31,541.46,505,468.88,455.56,465.36,489.13,536.38,569.23,597.01,627.97
+Three bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,Donegal,572.28,535.61,516.5,472.27,442.11,442.01,452.91,452.11,458.12,480.4,513.76,542.38
+Three bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Letterkenny, Donegal",-1,565.26,534.4,491.94,452.57,442.04,460.14,479.31,508.87,541.11,574.56,602.1
+Three bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,Donegal,-1,-1,-1,552.81,721.95,546.45,535.44,553.34,508.84,548.42,608.88,644.69
+Three bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Letterkenny, Donegal",-1,-1,-1,-1,778.78,-1,-1,514.5,486.2,586.17,-1,736.57
+Three bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Three bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,All property types,Donegal,490.24,463.65,434.64,399.68,390.2,375.64,375.76,391.54,421.2,453.56,465.98,485.89
+1 to 2 bed,All property types,Donegal Town,-1,-1,-1,443.79,-1,411.84,386.49,379.08,444.11,432.68,457.26,497.35
+1 to 2 bed,All property types,"Ballybofey, Donegal",-1,464.3,466.95,-1,371.66,355.03,338.22,351.45,379.53,400.44,456.33,468.47
+1 to 2 bed,All property types,"Buncrana, Donegal",-1,-1,-1,-1,368.86,358.99,353.45,363.8,389.36,400.87,420.99,439.39
+1 to 2 bed,All property types,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,All property types,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,354.71,399.03,419.61
+1 to 2 bed,All property types,"Letterkenny, Donegal",488.94,475.84,441.16,402.86,404.12,379.76,386.8,408.03,443.22,492.72,510.14,533.51
+1 to 2 bed,All property types,"Lifford, Donegal",-1,463.75,421.24,-1,365.94,354.41,343.8,356.08,382.45,407.24,422.33,409.35
+1 to 2 bed,All property types,"Stranorlar, Donegal",-1,-1,-1,-1,-1,393.07,377.87,381.45,399.78,462.65,395.99,-1
+1 to 2 bed,Detached house,Donegal,474.42,439.43,418.61,400.96,378.2,363.63,353.83,362.17,386.13,400.98,419.39,451.65
+1 to 2 bed,Detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,450.21,-1
+1 to 2 bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,Donegal,484.7,449.24,423.07,406.85,378.33,389.12,396.4,397.88,412.98,445.39,476.16,483.82
+1 to 2 bed,Semi detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Letterkenny, Donegal",-1,450.26,422.94,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,Donegal,485.05,482.49,448.48,420.18,405.17,377.57,368.1,380.69,417.75,446.22,449.56,443.97
+1 to 2 bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,Donegal,508.88,478.62,445.99,403.89,405.38,385.77,388.38,406.86,437.79,476.9,487.37,508.04
+1 to 2 bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,351,-1,-1,471.31,496.48
+1 to 2 bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,"Letterkenny, Donegal",492.83,484.33,443.87,392.11,408.67,384.72,391.53,413.34,449.58,499.64,519.75,540.84
+1 to 2 bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,405.55,384.29,389.48,408.25,-1,-1,-1
+1 to 2 bed,Other flats,Donegal,391.95,372.67,372.14,354.26,324.64,316.85,318.41,338.48,378.33,387.32,391.08,421.9
+1 to 2 bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,326.44,312.88,330.3,352.9,396.5,430.65,426.51,477.46
+1 to 2 bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 2 bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,All property types,Donegal,545.96,519.71,489.47,456.5,439.77,419.12,417.96,434.55,460.31,490.87,510.94,533.22
+1 to 3 bed,All property types,Donegal Town,658.85,591.22,508.43,485.35,462.5,446.03,426.87,431.05,465.88,482.56,501.57,524.89
+1 to 3 bed,All property types,"Ballybofey, Donegal",555.5,532.95,520.28,483.53,452.92,423.42,412.26,423.43,443.16,466.84,495.97,511.31
+1 to 3 bed,All property types,"Buncrana, Donegal",525.82,512.25,498.71,460.63,417.62,404.93,402.48,426.92,449.25,455.66,468.51,497.67
+1 to 3 bed,All property types,"Bundoran, Donegal",-1,-1,493.23,459.76,433.77,413.06,421.95,413.66,427.85,446.7,482.46,487.69
+1 to 3 bed,All property types,"Carndonagh, Donegal",491.88,456.25,451.03,424.96,391.23,363.75,359.49,377.32,382.12,392.21,419.68,441.8
+1 to 3 bed,All property types,"Letterkenny, Donegal",553.46,534.09,499.27,461.81,452.22,423.85,431.16,452.01,489.81,533.7,559.48,585.28
+1 to 3 bed,All property types,"Lifford, Donegal",530.29,511.65,479.86,446.69,435.27,413.62,396.82,403.1,419.77,432.89,442.95,448.25
+1 to 3 bed,All property types,"Stranorlar, Donegal",567.98,536.71,512.1,484.7,446.34,418.51,398.53,405.43,420.97,472.56,453.21,525.07
+1 to 3 bed,Detached house,Donegal,545.08,508.44,483.96,464.56,448.4,428.9,413.64,425.66,439.05,470.64,488.88,500.06
+1 to 3 bed,Detached house,Donegal Town,-1,-1,-1,503.71,488.89,463.44,446.93,438.8,433.24,459.44,499.57,524.99
+1 to 3 bed,Detached house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Detached house,"Letterkenny, Donegal",569.76,536.32,506.96,460.78,452.92,446.74,438.47,451.76,472.51,530.46,552.22,545.73
+1 to 3 bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,409.47,421.24,424.34,428.25,428.21
+1 to 3 bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Semi detached house,Donegal,584.6,550.89,516.99,485.28,455.56,441.16,445.26,464.64,497.99,523.95,551.55,577.38
+1 to 3 bed,Semi detached house,Donegal Town,-1,-1,-1,487.76,457.52,448.8,440.44,446.4,503.77,539.8,524.32,-1
+1 to 3 bed,Semi detached house,"Ballybofey, Donegal",589.8,572.29,542.48,498.95,473.09,455.21,459.86,466.38,492.38,518.14,532.86,548.86
+1 to 3 bed,Semi detached house,"Buncrana, Donegal",-1,545.45,517.46,484.41,432.22,419.29,428.86,465.57,478.53,477.94,501.52,531.05
+1 to 3 bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,467.47,447.93,424.09,432.13,420.73,-1,-1,-1,-1
+1 to 3 bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,377.68,383.81,-1,405.83,408.66,-1,-1
+1 to 3 bed,Semi detached house,"Letterkenny, Donegal",601.01,563.78,532.48,502.76,467.03,452.93,463.65,488.32,534.79,567.06,595.21,626.86
+1 to 3 bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,437.31,425.28,435.76,-1,-1,483.67,-1
+1 to 3 bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,Donegal,537.23,518.97,497.02,457.14,430.52,420.61,422.48,430.4,446.29,469.66,491.54,513.22
+1 to 3 bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Terrace house,"Letterkenny, Donegal",544.99,547.59,520.06,489.63,456.43,440.27,445.61,468.07,511.24,544.1,555.62,581.46
+1 to 3 bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,392.68,-1,-1,-1
+1 to 3 bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,Donegal,513.24,483.12,452.68,415.25,433.08,395.41,397.49,417.48,443.52,482.23,494.37,519.16
+1 to 3 bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,341.2,356.97,377.23,392.79,470.86,499.63
+1 to 3 bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,"Letterkenny, Donegal",500.52,490.52,453.78,408.08,447.57,394.82,400.65,419.27,452.49,505.07,529.79,556.14
+1 to 3 bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,405.55,384.29,389.48,408.25,-1,-1,-1
+1 to 3 bed,Other flats,Donegal,395.58,371.49,382.78,358.99,327.65,322.48,323.05,343.05,383.71,395.3,401.59,432.21
+1 to 3 bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,330.3,322.52,333.94,355.71,402.67,442.8,443.3,494.36
+1 to 3 bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+1 to 3 bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,All property types,Donegal,646.12,612.76,578.53,545.93,521.3,511.59,515.36,529.95,552.77,579.11,602.18,633.89
+Four plus bed,All property types,Donegal Town,745,661.41,581.93,578.46,544.08,519,529.97,541.9,541.73,574.68,583.25,573.25
+Four plus bed,All property types,"Ballybofey, Donegal",646.71,630.3,594.22,561.35,533.29,500.43,496.49,521.7,537.33,551.24,576.14,603.13
+Four plus bed,All property types,"Buncrana, Donegal",618.17,577.06,528.09,526.29,504.9,508.52,490.87,481.26,496.28,564.51,582.65,581.56
+Four plus bed,All property types,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,All property types,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,465.8,-1,-1,-1,-1
+Four plus bed,All property types,"Letterkenny, Donegal",655.25,625.11,592.19,557.42,526.33,515.75,536.78,556.62,584.96,628.73,659.82,697.67
+Four plus bed,All property types,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,486.97,520.79,543.97,538.58,-1,-1
+Four plus bed,All property types,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,515.36,545.96,-1
+Four plus bed,Detached house,Donegal,677.84,634.67,587.35,557.15,539.22,528.78,528.22,544.55,562.9,586,612.08,642.42
+Four plus bed,Detached house,Donegal Town,-1,-1,-1,586.28,570.58,532.06,532.56,561.7,554.36,578.32,589.75,-1
+Four plus bed,Detached house,"Ballybofey, Donegal",-1,635.22,597.18,585.16,-1,-1,-1,-1,556.71,574.29,599.25,621.32
+Four plus bed,Detached house,"Buncrana, Donegal",-1,-1,-1,-1,533.19,536.04,-1,-1,532.73,602.74,-1,-1
+Four plus bed,Detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Detached house,"Letterkenny, Donegal",732.25,644.01,612.72,577.13,545.97,544.63,562.43,584.8,599.49,649.26,693.33,746.16
+Four plus bed,Detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,550.14,-1,-1,-1
+Four plus bed,Detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Semi detached house,Donegal,638.16,605.53,578.95,536.82,506.09,497.76,508.91,515.87,547.81,579.34,597.79,631.2
+Four plus bed,Semi detached house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Semi detached house,"Ballybofey, Donegal",-1,625.49,590.91,541.74,506.21,479.72,479.3,516.8,531.08,533.45,553.04,-1
+Four plus bed,Semi detached house,"Buncrana, Donegal",-1,563.78,525.49,509.48,478.04,-1,476.22,462.05,475.07,534.82,544.98,-1
+Four plus bed,Semi detached house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Semi detached house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Semi detached house,"Letterkenny, Donegal",653.91,627.98,592.4,548.24,520.84,504.94,529.47,542.02,586.01,623.32,645.34,675.89
+Four plus bed,Semi detached house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Semi detached house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,Donegal,-1,-1,-1,-1,-1,-1,449.74,516.01,523.23,497.93,532.75,-1
+Four plus bed,Terrace house,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Terrace house,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Apartment,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,Donegal,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,Donegal Town,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Ballybofey, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Buncrana, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Bundoran, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Carndonagh, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Letterkenny, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Lifford, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+Four plus bed,Other flats,"Stranorlar, Donegal",-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
