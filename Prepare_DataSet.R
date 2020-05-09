@@ -5,7 +5,6 @@ library(csodata)
 
 # Load all datasets to be used for developing the end dataset
 # Load CSO datasets - population stats
-esb_connections <- cso_get_data("HSA11")
 population_06_11 <- cso_get_data("CD303")
 population_11_16 <- cso_get_data("EB001")
 
@@ -48,16 +47,12 @@ donegal_employed <- donegal_employed[,c("2008", "2009", "2010", "2011", "2012", 
 colnames(donegal_employed) <- c("EMPLOYED_2008", "EMPLOYED_2009", "EMPLOYED_2010", "EMPLOYED_2011", "EMPLOYED_2012", 
                                 "EMPLOYED_2013", "EMPLOYED_2014", "EMPLOYED_2015", "EMPLOYED_2016")
 
-# Calculate a new house dataset with new houses (from esb connections) for 2006 - 2016 for Donegal
-donegal_new_houses <- esb_connections[esb_connections$Local.Authority == "Donegal (County Council)" & 
-                                        esb_connections$Housing.Sector == "All housing sectors", 
-                                      c("2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016")]
-
 # Calculate a dataset that rolls up population, housing stock and average rental payment across Donegal by different areas
 # Calculate population per district
 donegal_population_and_housing <- census_population_2016[census_population_2016$County == "Donegal", 
                                                          c("ED_NAME", "POPULATION_06", "POPULATION_11", "POPULATION_16", 
-                                                            "HOUSING_STOCK_11", "HOUSING_STOCK_16")]
+                                                            "HOUSING_STOCK_11", "HOUSING_STOCK_16", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_11", 
+                                                           "VACANT_HOUSES_LESS_HOLIDAY_HOMES_16")]
 # Distribute the date from 06, 11 and 16 census between all years in the range 06 to 2016
 donegal_population_and_housing$POPULATION_07 <- round(donegal_population_and_housing$POPULATION_06 + 
                                                         ((donegal_population_and_housing$POPULATION_11 - 
@@ -98,6 +93,20 @@ donegal_population_and_housing$HOUSING_STOCK_15 <- round(donegal_population_and_
                                                            (((donegal_population_and_housing$HOUSING_STOCK_16 - 
                                                                 donegal_population_and_housing$HOUSING_STOCK_11) / 5) * 4))
 
+donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_12 <- round(donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11 + 
+                                                           ((donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_16 - 
+                                                               donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11) / 5))
+donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_13 <- round(donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11 + 
+                                                           (((donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_16 - 
+                                                                donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11) / 5) * 2))
+donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_14 <- round(donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11 + 
+                                                           (((donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_16 - 
+                                                                donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11) / 5) * 3))
+donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_15 <- round(donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11 + 
+                                                           (((donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_16 - 
+                                                                donegal_population_and_housing$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11) / 5) * 4))
+
+
 # Calculate join ids
 donegal_population_and_housing$DISTRICT_ID <- substr(donegal_population_and_housing$ED_NAME, 1, 3)
 AIRO_Area_District_Map$DISTRICT_ID <- substr(AIRO_Area_District_Map$ElectoralWard, 1, 3)
@@ -106,13 +115,17 @@ AIRO_Area_District_Map$DISTRICT_ID <- substr(AIRO_Area_District_Map$ElectoralWar
 population_RTB_Area <- merge(donegal_population_and_housing, AIRO_Area_District_Map, by.x = "DISTRICT_ID", by.y = "DISTRICT_ID")
 
 colnames(population_RTB_Area) <- c("DISTRICT_ID", "ED_NAME", "POPULATION_06", "POPULATION_11", "POPULATION_16", "HOUSING_STOCK_11", 
-                                   "HOUSING_STOCK_16", "POPULATION_07", "POPULATION_08", "POPULATION_09", "POPULATION_10", "POPULATION_12",
+                                   "HOUSING_STOCK_16",  "VACANT_HOUSES_LESS_HOLIDAY_HOMES_11",  "VACANT_HOUSES_LESS_HOLIDAY_HOMES_16",
+                                   "POPULATION_07", "POPULATION_08", "POPULATION_09", "POPULATION_10", "POPULATION_12",
                                    "POPULATION_13", "POPULATION_14", "POPULATION_15", "HOUSING_STOCK_12", "HOUSING_STOCK_13", "HOUSING_STOCK_14",
-                                   "HOUSING_STOCK_15", "AREA", "ELECTORAL_WARD", "RTB_AREA")
+                                   "HOUSING_STOCK_15", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_12", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_13", 
+                                   "VACANT_HOUSES_LESS_HOLIDAY_HOMES_14", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_15", "AREA", "ELECTORAL_WARD", "RTB_AREA")
 to_rollup <- population_RTB_Area[, c("POPULATION_06", "POPULATION_07", "POPULATION_08", "POPULATION_09", "POPULATION_10", 
-                                                     "POPULATION_11",  "POPULATION_12", "POPULATION_13", "POPULATION_14", "POPULATION_15", "POPULATION_16", 
-                                                     "HOUSING_STOCK_11","HOUSING_STOCK_12", "HOUSING_STOCK_13", "HOUSING_STOCK_14", "HOUSING_STOCK_15", 
-                                                     "HOUSING_STOCK_16", "RTB_AREA")]
+                                     "POPULATION_11",  "POPULATION_12", "POPULATION_13", "POPULATION_14", "POPULATION_15", "POPULATION_16", 
+                                     "HOUSING_STOCK_11","HOUSING_STOCK_12", "HOUSING_STOCK_13", "HOUSING_STOCK_14", "HOUSING_STOCK_15", 
+                                     "HOUSING_STOCK_16", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_11", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_12", 
+                                     "VACANT_HOUSES_LESS_HOLIDAY_HOMES_13", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_14", "VACANT_HOUSES_LESS_HOLIDAY_HOMES_15",
+                                     "VACANT_HOUSES_LESS_HOLIDAY_HOMES_16", "RTB_AREA")]
 
 # Roll up the individual districts by RTB area to join the rental values in
 donegal_district_housing_population <- aggregate(cbind(to_rollup$POPULATION_06, to_rollup$POPULATION_07, to_rollup$POPULATION_08, 
@@ -120,11 +133,16 @@ donegal_district_housing_population <- aggregate(cbind(to_rollup$POPULATION_06, 
                                                        to_rollup$POPULATION_12, to_rollup$POPULATION_13, to_rollup$POPULATION_14, 
                                                        to_rollup$POPULATION_15, to_rollup$POPULATION_16, to_rollup$HOUSING_STOCK_11, 
                                                        to_rollup$HOUSING_STOCK_12, to_rollup$HOUSING_STOCK_13, to_rollup$HOUSING_STOCK_14, 
-                                                       to_rollup$HOUSING_STOCK_15, to_rollup$HOUSING_STOCK_16), by=list(RTB_AREA=to_rollup$RTB_AREA), FUN=sum)
+                                                       to_rollup$HOUSING_STOCK_15, to_rollup$HOUSING_STOCK_16, to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_11,
+                                                       to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_12, to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_13,
+                                                       to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_14, to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_15,
+                                                       to_rollup$VACANT_HOUSES_LESS_HOLIDAY_HOMES_16), by=list(RTB_AREA=to_rollup$RTB_AREA), FUN=sum)
 
 colnames(donegal_district_housing_population) <- c("RTB_AREA", "POPULATION_06", "POPULATION_07", "POPULATION_08", "POPULATION_09", "POPULATION_10", "POPULATION_11", 
                                                    "POPULATION_12", "POPULATION_13", "POPULATION_14", "POPULATION_15", "POPULATION_16", "HOUSING_STOCK_11", 
-                                                   "HOUSING_STOCK_12", "HOUSING_STOCK_13", "HOUSING_STOCK_14", "HOUSING_STOCK_15", "HOUSING_STOCK_16")
+                                                   "HOUSING_STOCK_12", "HOUSING_STOCK_13", "HOUSING_STOCK_14", "HOUSING_STOCK_15", "HOUSING_STOCK_16",
+                                                   "AVAILABLE_HOUSING_11", "AVAILABLE_HOUSING_12", "AVAILABLE_HOUSING_13", "AVAILABLE_HOUSING_14",
+                                                   "AVAILABLE_HOUSING_15", "AVAILABLE_HOUSING_16")
 
 donegal_rent_all <- donegal_rent_prices[donegal_rent_prices$ï..Bedrooms == "All bedrooms" & donegal_rent_prices$Property.Type == "All property types",]
 colnames(donegal_rent_all) <- c("BEDROOMS", "PROPERTY_TYPE", "LOCATION", "RENT_2008", "RENT_2009", "RENT_2010", "RENT_2011", "RENT_2012", "RENT_2013", 
@@ -138,43 +156,45 @@ levels(population_rent$RTB_AREA)[levels(population_rent$RTB_AREA)=="Donegal"] <-
 population_rent$BEDROOMS <- NA
 population_rent$PROPERTY_TYPE <- NA
 
-population_rent$POP_PERC_OF_TOTAL <- population_rent$POPULATION_16 / sum(population_rent$POPULATION_16)
-population_rent$HOUSE_PERC_OF_TOTAL <- population_rent$HOUSING_STOCK_16 / sum(population_rent$HOUSING_STOCK_16)
+#population_rent$POP_PERC_OF_TOTAL <- population_rent$POPULATION_16 / sum(population_rent$POPULATION_16)
+#population_rent$HOUSE_PERC_OF_TOTAL <- population_rent$HOUSING_STOCK_16 / sum(population_rent$HOUSING_STOCK_16)
 
-population_rent$EMPLOYED_08 <- donegal_employed$EMPLOYED_2008 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_09 <- donegal_employed$EMPLOYED_2009 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_10 <- donegal_employed$EMPLOYED_2010 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_11 <- donegal_employed$EMPLOYED_2011 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_12 <- donegal_employed$EMPLOYED_2012 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_13 <- donegal_employed$EMPLOYED_2013 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_14 <- donegal_employed$EMPLOYED_2014 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_15 <- donegal_employed$EMPLOYED_2015 * population_rent$POP_PERC_OF_TOTAL
-population_rent$EMPLOYED_16 <- donegal_employed$EMPLOYED_2016 * population_rent$POP_PERC_OF_TOTAL
+population_rent$EMPLOYED_08 <- donegal_employed$EMPLOYED_2008 * (population_rent$POPULATION_08 / sum(population_rent$POPULATION_08))
+population_rent$EMPLOYED_09 <- donegal_employed$EMPLOYED_2009 * (population_rent$POPULATION_09 / sum(population_rent$POPULATION_09))
+population_rent$EMPLOYED_10 <- donegal_employed$EMPLOYED_2010 * (population_rent$POPULATION_10 / sum(population_rent$POPULATION_10))
+population_rent$EMPLOYED_11 <- donegal_employed$EMPLOYED_2011 * (population_rent$POPULATION_11 / sum(population_rent$POPULATION_11))
+population_rent$EMPLOYED_12 <- donegal_employed$EMPLOYED_2012 * (population_rent$POPULATION_12 / sum(population_rent$POPULATION_12))
+population_rent$EMPLOYED_13 <- donegal_employed$EMPLOYED_2013 * (population_rent$POPULATION_13 / sum(population_rent$POPULATION_13))
+population_rent$EMPLOYED_14 <- donegal_employed$EMPLOYED_2014 * (population_rent$POPULATION_14 / sum(population_rent$POPULATION_14))
+population_rent$EMPLOYED_15 <- donegal_employed$EMPLOYED_2015 * (population_rent$POPULATION_15 / sum(population_rent$POPULATION_15))
+population_rent$EMPLOYED_16 <- donegal_employed$EMPLOYED_2016 * (population_rent$POPULATION_16 / sum(population_rent$POPULATION_16))
 
 # Variables:
 #   - employed
 #   - population
 #   - avg rent 
 #   - house stock 
+#   - vacant house stock 
 
-data_11 <- population_rent[, c("RTB_AREA", "POPULATION_11", "EMPLOYED_11", "HOUSING_STOCK_11", "RENT_2011")]
-colnames(data_11) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_11 <- population_rent[, c("RTB_AREA", "POPULATION_11", "EMPLOYED_11", "HOUSING_STOCK_11", "RENT_2011", "AVAILABLE_HOUSING_11")]
+colnames(data_11) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_11$YEAR <- "2011"
-data_12 <- population_rent[, c("RTB_AREA", "POPULATION_12", "EMPLOYED_12", "HOUSING_STOCK_12", "RENT_2012")]
-colnames(data_12) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_12 <- population_rent[, c("RTB_AREA", "POPULATION_12", "EMPLOYED_12", "HOUSING_STOCK_12", "RENT_2012", "AVAILABLE_HOUSING_12")]
+colnames(data_12) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_12$YEAR <- "2012"
-data_13 <- population_rent[, c("RTB_AREA", "POPULATION_13", "EMPLOYED_13", "HOUSING_STOCK_13", "RENT_2013")]
-colnames(data_13) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_13 <- population_rent[, c("RTB_AREA", "POPULATION_13", "EMPLOYED_13", "HOUSING_STOCK_13", "RENT_2013", "AVAILABLE_HOUSING_13")]
+colnames(data_13) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_13$YEAR <- "2013"
-data_14 <- population_rent[, c("RTB_AREA", "POPULATION_14", "EMPLOYED_14", "HOUSING_STOCK_14", "RENT_2014")]
-colnames(data_14) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_14 <- population_rent[, c("RTB_AREA", "POPULATION_14", "EMPLOYED_14", "HOUSING_STOCK_14", "RENT_2014", "AVAILABLE_HOUSING_14")]
+colnames(data_14) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_14$YEAR <- "2014"
-data_15 <- population_rent[, c("RTB_AREA", "POPULATION_15", "EMPLOYED_15", "HOUSING_STOCK_15", "RENT_2015")]
-colnames(data_15) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_15 <- population_rent[, c("RTB_AREA", "POPULATION_15", "EMPLOYED_15", "HOUSING_STOCK_15", "RENT_2015", "AVAILABLE_HOUSING_15")]
+colnames(data_15) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_15$YEAR <- "2015"
-data_16 <- population_rent[, c("RTB_AREA", "POPULATION_16", "EMPLOYED_16", "HOUSING_STOCK_16", "RENT_2016")]
-colnames(data_16) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT")
+data_16 <- population_rent[, c("RTB_AREA", "POPULATION_16", "EMPLOYED_16", "HOUSING_STOCK_16", "RENT_2016", "AVAILABLE_HOUSING_16")]
+colnames(data_16) <- c("RTB_AREA", "POPULATION", "EMPLOYED", "HOUSING_STOCK", "AVG_RENT", "VACANT_HOUSES")
 data_16$YEAR <- "2016"
 
 analysis_dataset <- rbind(data_11, data_12, data_13, data_14, data_15, data_16)
+
 write.csv(analysis_dataset, "Data/Analyze_data.csv")
