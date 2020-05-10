@@ -18,10 +18,8 @@ people_per_house_rest_of_ire = accomodation$PeoplePerHouse[accomodation$RentInco
 length(people_per_house_expensive_areas)
 length(people_per_house_rest_of_ire)
 
-hist(accomodation$PeoplePerHouse)
-hist(people_per_house_expensive_areas)
-hist(people_per_house_rest_of_ire)
-
+# Verify that the two sets of data have the same variance
+var.test(people_per_house_expensive_areas,people_per_house_rest_of_ire)
 
 library(pwr)
 

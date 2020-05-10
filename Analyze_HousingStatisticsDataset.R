@@ -96,6 +96,13 @@ plot <- ggplot(accomodation, aes(x = TownSize, y = Avg_Rent, color = PersonsPerS
 plot <- plot + geom_point() + scale_color_viridis()
 print((plot))
 
+# Plot average rent per area, color by density
+plot <- ggplot(accomodation, aes(x = TownSize, y = Avg_Rent, color = RentIncomeRatio))
+plot <- plot + geom_point() + scale_color_viridis()
+print((plot))
+
+
+
 # Plot average rent per area, color by overall population
 plot <- ggplot(accomodation, aes(x = TownSize, y = Avg_Rent, color = TotalPopulation))
 plot <- plot + geom_point() + scale_color_viridis()
@@ -107,16 +114,16 @@ plot <- plot + geom_point() + scale_color_viridis()
 print((plot))
 
 # Investigate correlation between variables  
-ict_variables_of_interest <- c("PC_ICTOwnsPC", "PC_ICTInternet", "Household_Income")
-pairs(accomodation[ict_variables_of_interest])
 
 physical_variables_of_interest <- c("PersonsPerSqKm", "TotalPopulation", "PC_HeatingNoCentral", 
-                                    "PC_SeweragePublic", "PC_SewerageIndSeptic")
+                                    "PC_SeweragePublic", "PC_SewerageIndSeptic", "PC_ICTOwnsPC", 
+                                    "PC_ICTInternet", "Household_Income")
 pairs(accomodation[physical_variables_of_interest])
 
-financial_variables_of_interest <- c("PersonsPerSqKm", "TotalPopulation", "PeoplePerHouse",
+financial_variables_of_interest <- c("PersonsPerSqKm", "TotalPopulation", "AllHouseholds", "PeoplePerHouse",
                                      "Household_Income", "Avg_Rent", "RentIncomeRatio")
 pairs(accomodation[financial_variables_of_interest])
+
 
 colors <- rainbow(length(unique(accomodation$TownSize)))
 
@@ -136,7 +143,6 @@ ggplot(accomodation, aes(x=PeoplePerHouse, y=Avg_Rent, color=TownSize)) +
 ######################################################################
 
 data_numeric_variables <- sapply(accomodation, is.numeric)
-data_numeric_variables
 
 # Remove undesired columns from PCA dataset
 accomodation_adjusted <- accomodation[, data_numeric_variables]
@@ -156,7 +162,6 @@ pca2 <- PCA(accomodation_adjusted, graph = FALSE)
 print(pca2)
 pca2_eig_values <- get_eigenvalue(pca2)
 pca2_eig_values
-
 
 fviz_eig(pca, addlabels = TRUE, ylim = c(0, 50))
 
@@ -227,6 +232,14 @@ hist(accomodation$PC_HeatingNoCentral)
 hist(accomodation$PC_SeweragePublic)
 hist(accomodation$PC_SewerageIndSeptic)
 hist(accomodation$PC_WaterPublicMains)
+hist(accomodation$RentIncomeRatio)
+hist(accomodation$PeoplePerHouse)
+
+ggdensity(accomodation$PeoplePerHouse, 
+          main = "Density plot of people per house",
+          xlab = "People per house")
+
+
 
 library("ggpubr")
 ggboxplot(accomodation, x = "TownSize", y = "PersonsPerSqKm", 
@@ -244,6 +257,11 @@ ggboxplot(accomodation, x = "TownSize", y = "Household_Income",
 ggboxplot(accomodation, x = "TownSize", y = "PeoplePerHouse", 
           color = "TownSize", palette = colors,
           ylab = "People per house", xlab = "Area")
+
+ggboxplot(accomodation, x = "TownSize", y = "RentIncomeRatio", 
+          color = "TownSize", palette = colors,
+          ylab = "Rent to Income Ratio", xlab = "Area")
+
 
 write.csv(accomodation, "Data/HousingStatsProcessed.csv")
 
